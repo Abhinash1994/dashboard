@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Button, FormGroup, FormControl, h5  } from "react-bootstrap";
-import { Redirect,Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import Sidebar from '../Sidebar'
 
 export default class Signin extends Component {

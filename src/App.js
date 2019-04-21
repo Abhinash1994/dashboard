@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Sidebar from './Components/Sidebar'
 import Signin from './Components/Signin'
 import './Assets/css/main.css';
 import './Assets/css/responsive.css';

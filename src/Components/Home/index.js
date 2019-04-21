@@ -41,7 +41,7 @@ class Home extends Component {
            </MetaTags>
 
            <Card className="homecard">
-                <img src="https://res.cloudinary.com/falconworld/image/upload/v1554809895/dashbg.jpg" style={{height:'340px'}}/>
+                <img src="https://res.cloudinary.com/falconworld/image/upload/v1554809895/dashbg.jpg" alt="dashbg img" style={{height:'340px'}}/>
            </Card>
             <Grid container>
                 <Grid item  md={1} lg={1}></Grid>

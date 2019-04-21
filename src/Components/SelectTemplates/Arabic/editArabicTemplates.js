@@ -182,7 +182,7 @@ var myWidget = window.cloudinary.createUploadWidget({
                 <Grid className="formdetail" item xs={12} sm={12} md={8} lg={8}>
                   <Card className="mainpage">
                   <div className="banner">
-                    <img src={this.state.imageURL}/>
+                    <img src={this.state.imageURL} alt="banner"/>
                   </div>
                   <form >
                         <div className="form-group">
