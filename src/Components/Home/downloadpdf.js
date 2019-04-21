@@ -118,8 +118,8 @@ class DownloadPDF extends Component {
           isLoaded: true,
           pdf: response.data
         });
-        console.log(response)
-        console.log("pdf",this.state.pdf)
+       
+        console.log("downloadpdf",this.state.pdf)
 
            setTimeout(() => {
               const response = {
@@ -203,7 +203,7 @@ class DownloadPDF extends Component {
                         </div>
                         <div className="submit1">
                             
-                            <button type="submit" class="btn btn-primary" >Submit</button>
+                            <button type="submit" class="btn btn-primary" onClick={this.handleSubmit}>Submit</button>
                             
                         </div>
                     </form>
